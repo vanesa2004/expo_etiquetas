@@ -1,0 +1,300 @@
+* {
+    box-sizing: border-box; /* tamaño de caja */
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container >*{  /* contenedor de */
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 1px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.header{  /* encabezado de pagina */
+    grid-area: header;
+    background-color: #ffffff;
+}
+
+.logo{  /* logo de la pagina */
+    float: left;
+    margin-left: 30px;
+}
+
+.titulo_header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.section1{
+    grid-area: section1;
+    background-color: #5ee7ffde;
+ }
+
+ .titulos{  /* titulo de las seccioness */
+    margin: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ table{  /* tabla */
+    border: 2px solid black;
+    width: 280px;
+    height: 230px;
+    float: left;
+    margin: 10px;
+    border-collapse: collapse;
+ }
+
+ .celda{  /* celda */
+    border: 2px solid black; 
+ }
+
+ .imagen1{  /* imagen de la estructura de una tabla */
+    width: 255px;
+    height: 230px; 
+    margin: 10px;   
+ }
+
+ .informacion1{  /* Descripcion de thead, tbody, tfoot */
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px;
+ }
+
+.section2{
+    grid-area: section2;
+    background-color: #5ee7ffde;
+}
+
+ .tabla2{  /* tabla */
+    border: 2px solid black;
+    width: 280px;
+    height: 360px;
+    float: left;
+    margin: 10px;
+    border-collapse: collapse;
+ }
+
+.celda1{
+    background-color: #ffffff;
+}
+
+.celda2{
+    background-color: rgba(37, 222, 255, 0.5);
+}
+
+.celda3{
+    background-color: #ffffff;
+}
+
+.fila{
+    background-color: rgba(255, 196, 242, 0.76);
+}
+
+td{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid;
+    background-color: #ecf7ea;
+}
+
+.imagen2{
+    width: 399px;
+    height: 360px;
+    margin: 10px;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: #ffffffde;
+}
+
+ .article1{  /* articulo 1, primer ejemplo de video */
+    width: 315px;
+    height: auto;
+    background-color: rgb(241, 235, 227);
+    float: left;
+    margin: 8px;
+ }
+
+ .article2{  /* articulo 2, segundo ejemplo de video */
+    width: 315px;
+    height: auto;
+    background-color: rgb(241, 235, 227);
+    float: left;
+    margin: 8px;
+ }
+
+ .article3{  /* articulo 3, tercer ejemplo de video */
+    width: 315px;
+    height: auto;
+    background-color: rgb(241, 235, 227);
+    float: left;
+    margin: 8px;
+ }
+
+ .article4{  /* articulo 4, cuarto ejemplo de video */
+    width: 315px;
+    height: auto;
+    background-color: rgb(241, 235, 227);
+    float: left;
+    margin: 8px;
+ }
+ 
+ video{  
+    width: 300px;
+    margin: 5px;
+ }
+
+ .pvideo{  /* texto descriotivi de cada video */
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px;
+    text-align: left;
+ }
+
+ .section3{  /* seccion de las etiquetas u,ul y time */
+    width: 609px;
+    background-color: #5ee7ffde;
+    float: left;  
+ }
+
+ .article-u{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px;    
+ }
+
+ .img-u{
+    width: 500px;
+ }
+
+ .article-ul{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px;  
+ }
+
+ ul{
+    text-align: left;
+ }
+
+ .article-time{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px;
+ }
+
+ .datatime{
+    width: 500px;
+ }
+
+ .section-sup{   /* seccion de etiqueta sup,template, textarea  */
+    background-color: beige;
+    width: 1336px;
+    float: left;
+ }
+
+ .article-sup{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px; 
+    width: 400px; 
+    float: left;
+ }
+
+ .sup{                    /* etiqueta supppppppppppppppppppppp */
+    width: 370px;
+ }
+
+ .article-template{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px; 
+    width: 400px;
+    float: left;
+ }
+
+ .article-textarea{
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px; 
+    width: 400px;
+    float: left; 
+ }
+
+ .template{
+    width: 370px;
+ }
+
+ .section4{
+    width: 720px;
+    height: 770px;
+    background-color: blanchedalmond;
+    float: left;
+ }
+
+ .article-svg{
+   border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px; 
+    width: 700px;
+    float: left;
+ }
+
+ .article-track{
+   border: 1px solid ;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px; 
+    width: 700px;
+    float: left;
+ }
+
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(188, 181, 196);
+}
+
+.var{
+   width: 800px;
+   margin: 5px;
+}
+
+
+.grid-container {
+    display: grid;
+    gap: 0px;
+    grid-template-areas: 
+        "header"
+        "section1"
+        "section2"
+        "aside"
+        "footer"
+        ;
+}
+
+@media (min-width: 1080px){
+    .grid-container {
+        grid-template: 
+            "header header header header" 140px    
+            "section1 section1 section2 section2" auto
+            "aside aside aside aside" auto
+            "footer footer footer footer" 180px /
+            100px 500px 200px;
+    }
+    }

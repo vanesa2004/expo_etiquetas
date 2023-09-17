@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Etiquetas html</title>  <!--titulo de que se muestra en el navegador-->
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="grid-container">
+    <header class="header">
+        <img class="logo" src="/imagenes_videos/logo_html.png" alt="">
+        <h1 class="titulo_header">ETIQUETAS</h1>
+    </header>
+    <section class="section1">
+
+        <h1 class="titulos">Etiquetas THEAD, TBODY, TFOOT</h1>
+        <table>
+            <thead>  <!--Encabezado de la tabla-->
+                <tr>
+                    <td class="celda">cabecera de tabla</td>
+                </tr>
+            </thead>
+            <tbody>  <!--Cuerpo de la tabla-->
+                <tr>
+                    <td class="celda">cuerpo de tabla</td>
+                </tr>
+            </tbody>
+            <tfoot>  <!--Pie de la tabla-->
+                <tr>
+                    <td class="celda">pie de tabla</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <img class="imagen1" src="/imagenes_videos/imagen_1.png" alt="">
+
+        <p class="informacion1">Estas etiquetas no tienen ningún formato definido por defecto, por lo cual, debemos crearlo nosotros con hojas de estilo.
+            Puede haber una o varias etiquetas tbody en una tabla, pero sólo una thead y una tfoot. Si una tabla tiene thead o tfoot, 
+            debe tener al menos un tbody.</p>
+    </section>
+
+    <section class="section2">
+        <h1 class="titulos">Etiquetas TR, TH, TD</h1>
+        <table class="tabla2">
+            <thead>  <!--Encabezado de la tabla-->
+                <tr>
+                    <th>Articulo</th>  <!-- Encabezado de celda-->
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>  <!--Cuerpo de la tabla-->
+                <tr> <!--filas-->
+                    <td class="celda1">Camisa</td>  <!--celdas-->
+                    <td class="celda2">30.000</td>
+                    <td class="celda3">1</td>
+                </tr>
+                <tr>
+                    <td class="fila">Pantalon</td>
+                    <td class="fila">80.000</td>
+                    <td class="fila">1</td>
+                </tr>
+                <tr>
+                    <td>Chaqueta</td>
+                    <td>70.000</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Zapatos</td>
+                    <td>66.000</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+            <tfoot>  <!--Pie de la tabla-->
+                <tr>
+                    <td>Total</td>
+                    <td>246.000</td>
+                    <td>4</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <img class="imagen2" src="/imagenes_videos/imagen_2.png" alt="">
+        
+    
+    </section>
+    <aside class="aside">  <!--etiqueta video-->
+
+        <h1 class="titulos">Etiqueta VIDEO</h1>
+        <article class="article1">
+
+            <h1 class="titulos">Ejemplo 1</h1>
+            <video src="/imagenes_videos/video.mp4"></video>
+            <p class="pvideo"> Formatos de video que se pueden utilizar son: <br> mp4, ogg, webm. </p>
+
+        </article>
+
+        <article class="article2">
+            <h1 class="titulos">Ejemplo 2</h1>
+            <video src="/imagenes_videos/video.mp4" controls muted loop></video>
+            <p class="pvideo"><b>CONTROLS:</b> Controles del video. <br>
+              <b>MUTED:</b> Video silenciado. <br>
+              <b>LOOP:</b> Reproduccion en bucle</p>
+        </article>
+
+        <article class="article3">
+            <h1 class="titulos">Ejemplo 3</h1>
+            <video src="/imagenes_videos/video.mp4" controls poster="/imagenes_videos/imagen_video.png" ></video>
+            <p class="pvideo"><b>CONTROLS:</b> Controles del video. <br>
+              <b>POSTER:</b> Permite agregar una imagen preview al videos.
+            </p>
+        </article>
+
+        <article class="article4">
+            <h1 class="titulos">Ejemplo 4</h1>
+            <video src="/imagenes_videos/video.mp4" autoplay muted loop ></video>
+            <p class="pvideo"><b>AUTOPLAY:</b> Reproduccion automatica. <br>
+             <b>MUTE:</b> Video silenciado. <br>
+             <b>LOOP:</b> Reproduccion en bucle.
+            </p>
+        </article>
+
+        <section class="section3">  <!--etiqueta u-->
+
+            <article class="article-u">
+              <h1 class="titulos">Etiqueta U</h1>
+              <img class="img-u" src="/imagenes_videos/etiqueta_u.png" alt="">
+              <p>Esta etiqueta se utiliza para definir texto subrayado. <u>ejemplo de etiqueta u</u></p>
+            </article>
+
+            <article class="article-ul">   <!--etiqueta ul-->
+
+                <h1 class="titulos">Etiqueta UL</h1>
+                <img src="/imagenes_videos/etiqueta_ul.png" alt="">
+                <p>Esta etiqueta crea una lista no ordenada.
+                  el texto se publica con las viñetas de puntos grandes, pero no indica un orden. <br><br> 
+                </p>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Noticias</li>
+                    <li>Contacto</li>
+                </ul>
+            </article>
+            <article class="article-time">  <!--etiqueta time-->
+
+                <h1 class="titulos">Etiqueta TIME</h1>
+                <p>Esta representa un periodo específico en el tiempo. Puede incluir el atributo  datatime se utiliza para definir la fecha/hora en una forma legible por la máquina               
+                </p>
+                <img class="datatime" src="/imagenes_videos/data_time.png" alt="">
+                <time datetime="2022-09-15T10:40"> <br> año 2022 del mes de septiembre el dia 15 a las 10 40 minutos</th>
+            </article>
+
+            <section class="section-sup">
+
+                <article class="article-sup">       <!--etiqueta sup-->
+                    <h1 class="titulos">Etiqueta SUP</h1>
+                    <p>La etiqueta define el texto de superíndice. El texto del superíndice aparece medio carácter por encima de la línea normal y, a veces, se representa en una fuente más pequeña. 
+                        <sup>superíndice <br><br></sup>
+                        <img class="sup" src="/imagenes_videos/sup.png" alt="">
+                    </p>
+                </article>
+
+                <article class="article-template">  <!--etiqueta template-->
+                    <h1 class="titulos">Etiqueta TEMPLATE</h1> 
+                    <p>La etiqueta se utiliza como contenedor para mantener contenido HTML oculto al usuario cuando se carga la página.template El contenido del interior se puede representar más tarde con un JavaScript <br><br></p>
+                    <img class="template" src="/imagenes_videos/template.png" alt="">
+                    <template>este contenido se mantiene oculto</template>
+
+                </article>
+
+                <article class="article-textarea">   <!--etiqueta textarea-->
+                    <h1 class="titulos">Etiqueta TEXTAREA</h1>
+                    <p>Esta etiquetaEl control asociado permite a los usuarios editar múltiples líneas de texto regular. 
+                        Los controles textarea son útiles para recolectar o editar líneas largas de texto como mensajes, contenido 
+                        de archivos, listas, reseñas, artículos,</p>
+
+                        <textarea name="uno" id="" cols="50" rows="3"></textarea>
+                    
+                </article>
+            </section>
+            
+        </section>
+        <section class="section4">
+            <article class="article-svg">
+              <h1 class="titulos">Etiqueta SVG</h1>
+              <p>Básicamente es un marcado, como HTML, excepto que tiene muchos elementos diferentes para definir las formas que desea que aparezcan 
+                en su imagen y los efectos que desea aplicar a esas formas. SVG es para marcar gráficos
+              </p>
+              <img src="/imagenes_videos/circle.png" alt=""> <br>
+            
+               <svg width="100" height="100" style="border: 1px solid black">
+                  <circle cx="50" cy="50" r="40" fill="transparent" stroke="black">
+                  </circle>
+               </svg>
+            </article>
+
+            <article class="article-track">   <!--etiqueta track-->
+                <h1 class="titulos">Etiqueta TRACK</h1>
+                <p>El elemento HTML track se utiliza como elemento hijo de los elementos multimedia, audio y video. Le permite especificar pistas de 
+                    texto cronometradas (o datos basados en el tiempo), por ejemplo, para manejar subtítulos automáticamente.
+                </p>
+
+                <video controls
+              src="/imagenes_videos/video.mp4">
+              <track default
+              kind="captions"
+              srclang="en"
+              src="/media/examples/friday.vtt" />
+              Sorry, your browser doesn't support embedded videos.
+              </video>
+            </article>
+                
+        </section>
+    </aside>
+
+    <footer class="footer">
+        
+        <h1 class="titulos">Etiqueta VAR</h1>
+        <p>El elemento var representa a una variable, siendo ésta una varibale en una fórmula matemática o un código de computadora, una constante, un parámetro en una función, etc.</p>
+        <p>...donde <var>a</var> representa la longitud de la hipotenusa, y <var>b</var> y <var>c</var> representan las longitudes de los otros dos lados.</p>
+        <img class="var" src="/imagenes_videos/var.png" alt="">
+         
+    </footer>
+    
+</body>
+</html>
